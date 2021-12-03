@@ -22,20 +22,20 @@ function App() {
         <div className="navbar">
           <NavLink
             activeClassName="navlink-active"
-            className="navlink"
+            className="navbar-item"
             to="/"
             // key={"home"}
             // end={true}
           >
-            Home
+            H O M E
           </NavLink>
           <NavLink
-            activeClassName="navlink-active"
-            className="navlink"
+            activeClassName="navbar-item active"
+            className="navbar-item"
             to="/about"
             // key={"about"}
           >
-            About Us
+            A B O U T
           </NavLink>
         </div>
         <Routes>
