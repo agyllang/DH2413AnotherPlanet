@@ -9,6 +9,7 @@ import Row from "react-bootstrap/Row";
 import "./App.css";
 import About from "./components/About/about";
 import Home from "./components/Home/home";
+import Game from "./components/Game/game";
 const Dummy = (title) => {
   return (
     <Container>
@@ -30,6 +31,15 @@ function App() {
             H O M E
           </NavLink>
           <NavLink
+            activeClassName="navlink-active"
+            className="navbar-item"
+            to="/game"
+            // key={"home"}
+            // end={true}
+          >
+            G A M E
+          </NavLink>
+          <NavLink
             activeClassName="navbar-item active"
             className="navbar-item"
             to="/about"
@@ -41,6 +51,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
+          <Route path="/game" element={<Game/>} />
         </Routes>
     </div>
   );

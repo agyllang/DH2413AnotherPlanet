@@ -49,7 +49,15 @@ const About = ({ ...props }) => {
   return (
     <Container className="page-container">
       <Col>
-        <Row className="page-title">Project group</Row>
+        <Row
+          style={{
+            backgroundImage: `url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/chukchi_oli_2018169_lrg_0.jpg")`,
+            backgroundSize: "cover",
+          }}
+          className="page-title"
+        >
+          Project group
+        </Row>
         <Col className="page-text">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

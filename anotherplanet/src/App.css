@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #020229;
 }
 
 .navbar {
@@ -18,16 +19,38 @@
 .page-container {
   display: flex;
 }
+.page-header {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  justify-content: flex-start;
+}
+.page-header2 {
+  color: rgb(172, 172, 172);
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  justify-content: flex-start;
+}
 .flex {
   display: flex;
 }
 .page-title {
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 60px;
   justify-content: center;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .page-text {
+  color: rgb(255, 255, 255);
+
   font-size: 30px;
   font-family: "Rajdhani", sans-serif;
 }
@@ -36,8 +59,12 @@
 .aboutcard {
   /* border: 2px solid black; */
   /* width: fit-content; */
+
   margin: 20px;
   text-align: center;
+  /* background-image: url("https://www.esa.int/var/esa/storage/images/enabling_support/space_transportation/19716729-20-eng-GB/Space_Transportation_pillars.jpg"); */
+  /* background-color: #cccccc; */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .aboutcard-title {
@@ -49,7 +76,9 @@
   font-family: "Rajdhani", sans-serif;
 }
 .img-container {
-  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
 }
 .aboutcard-text {
   font-size: 20px;
@@ -68,9 +97,8 @@
 .boxshadow {
   box-shadow: 
    /* #ba1e68 5px -5px,
-    #5643fd 7px -7px, */
-    #302a64 -10px -10px, 
-     #7649fe 10px 10px;
+    #5643fd 7px -7px, */ #302a64 -10px -10px,
+    #7649fe 10px 10px;
 }
 
 .boxshadow {
@@ -78,26 +106,33 @@
   /* width: 350px; */
   /* height: 550px; */
   background: white;
-  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
   /* color: white; */
-  box-shadow: 20px 20px rgba(0,0,0,.15);
-  transition: all .4s ease;
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
 }
 /* .boxshadow:hover {
   border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
   box-shadow: 10px 10px rgba(0,0,0,.25);
 } */
 
-.navbar-item{
-  font-family: 'Jura', sans-serif;
+.navbar-item {
+  font-family: "Jura", sans-serif;
   color: #fff;
-  font-size:25px;
+  font-size: 25px;
   text-decoration: none;
-  
 }
-.navbar-item:hover{
-  color:rgb(236, 132, 62);
+.navbar-item:hover {
+  color: rgb(236, 132, 62);
   background-color: rgba(189, 189, 189, 0.315);
-  font-weight:bolder;
+  font-weight: bolder;
+}
 
+.navbar-item.active {
+  border-bottom: 2px solid #f0d785;
+  color: #ff792b;
+  /* background-color: #f0d785; */
+  /* width: 100%; */
+
+  font-weight: 700;
 }
