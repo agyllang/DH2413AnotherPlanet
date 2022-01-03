@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #020229;
+  padding-bottom: 100px;
 }
 
 .navbar {
@@ -44,8 +45,8 @@
   font-family: "Montserrat", sans-serif;
   font-size: 60px;
   justify-content: center;
-  padding-top:20px;
-  padding-bottom:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .page-text {
