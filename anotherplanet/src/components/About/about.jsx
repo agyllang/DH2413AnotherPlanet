@@ -59,24 +59,24 @@ const About = ({ ...props }) => {
           Project group
         </Row>
         <Col className="page-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          The project group of five has had different experiences that have come
+          together through this project. We've learned from eachother and with
+          each other while learning new techniques and exploring this new
+          educational tool.
         </Col>
         <Row>
           <AboutCard
             name={"Amalia"}
             imgSrc={Amalia}
-            role={"Developer"}
-            gitHubLink={"https://github.com/"}
+            role={"UX/Controls/Sound effects"}
+            gitHubLink={"https://github.com/amaliaberglof"}
           >
-            I have done this and that and what not
+            In this project, I have focused on the UX part of the project, such
+            as preparing for the user evaluation part of the demos and
+            presentations - preparing questions, finding participants and
+            evaluating answers. I have also worked with the controls for
+            locomotions and actions, as well as adding sound effects to the
+            scenes and actions.
           </AboutCard>
           <AboutCard name={"Ao"} imgSrc={Ao} role={"Game designer"}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
