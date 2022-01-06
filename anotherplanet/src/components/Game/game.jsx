@@ -42,7 +42,8 @@ const Game = () => {
         <Col className="page-text">
           The graphics for this project was made through <b>Blender</b>, to
           build and enhance the 3D environment and the game elements, as well as
-          doing texture mapping.
+          doing texture mapping. We were familiar with Blender from before,
+          which made it a fitting tool for us to use.
         </Col>
         <Row className="page-header2">Interactions</Row>
         <Col className="page-text">
