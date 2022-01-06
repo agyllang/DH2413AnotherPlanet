@@ -6,6 +6,7 @@ import Amalia from "../../images/amalia.png";
 import Ao from "../../images/ao.png";
 import Bosen from "../../images/bosen.png";
 import Przemyslaw from "../../images/przemyslaw.png";
+import Filip from "../../images/Filip.png";
 import Github from "../../images/logogithub.png";
 
 const AboutCard = ({ ...props }) => {
@@ -14,7 +15,7 @@ const AboutCard = ({ ...props }) => {
     <Container className="aboutcard boxshadow">
       <Row>
         <Col className="img-container" xs={1} md={3}>
-          <img src={imgSrc} />
+          <img src={imgSrc} width="200px"/>
         </Col>
         <Col xs={1} md={2}>
           <Row>
@@ -79,38 +80,30 @@ const About = ({ ...props }) => {
             scenes and actions.
           </AboutCard>
           <AboutCard name={"Ao"} imgSrc={Ao} role={"Game designer"}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            In this project, I am with Bosen Cheng. We focused on the environment design of the game.
+            More specifically, we designed the Earth, Mars and Moon environment which act as the 
+            background of the game arena, which uses free 3D asset from epic store or hand crafted 3D model.
+            We utilized the advanced feature of the unreal engine such as volumetric cloud and sky box editor. 
+            We also helped fix the control problem in VR mode.
           </AboutCard>
-          <AboutCard name={"Bosen"} imgSrc={Bosen} role={"3D"}>
-            {" "}
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.{" "}
+          <AboutCard name={"Bosen"} imgSrc={Bosen} role={"3D designer"}>
+            In this project, I am with Ao Xu. We focused on the environment design of the game.
+            More specifically, we designed the Earth, Mars and Moon environment which act as the 
+            background of the game arena, which uses free 3D asset from epic store or hand crafted 3D model.
+            We utilized the advanced feature of the unreal engine such as volumetric cloud and sky box editor. 
+            We also helped fix the control problem in VR mode.
           </AboutCard>
           <AboutCard name={"Przemyslaw"} imgSrc={Przemyslaw} role={"Developer"}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            In this project, I am in charge of the physics-based game design. I designed the game arena with 
+            a physics gun and interactive objects for exploration. The games provided method to observe the 
+            influence of gravity. I am also in charge of the VR control of the game. I implemented the control 
+            so that one can use left controlled to move and right controller to shoot with the gun.
+          </AboutCard>
+          <AboutCard name={"Filip"} imgSrc={Filip} role={"Developer"}>
+            In this project, I am in charge of the solar system main menu. I designed the solar system which 
+            acts as the main menu of the game. It features interactive planets model and sound effect. I am 
+            also in charge of the control implementation of the main menu in VR mode, which allow users to 
+            use the right controller as to select the planet they want to go. 
           </AboutCard>
         </Row>
       </Col>
