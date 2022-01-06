@@ -16,7 +16,17 @@ const Game = () => {
         >
           The Game
         </Row>
-
+        <Row className="page-header2">Making of Another Planet</Row>
+        <Col className="page-text">
+          <iframe
+            src="https://player.vimeo.com/video/662035961?h=b69ef3696f"
+            width="640"
+            height="360"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </Col>
         <Row className="page-header">Technologies</Row>
         <Row className="page-header2">Graphics</Row>
         <Col className="page-text">
