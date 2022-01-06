@@ -28,17 +28,21 @@ const Game = () => {
           ></iframe>
         </Col>
         <Row className="page-header">Technologies</Row>
+        <Col className="page-text">
+          This project was built through <b>Unreal Engine</b>, which was also
+          one of the main goals of this project, to learn about a new tool.
+          Unreal is a more powerful tool than Unity when designing realistic
+          spacescapes, especially when it comes to the sky and atmosphere
+          system, which also was a reason to choose it over Unity. Unreal uses a
+          blueprint system which minimizes code written, this was helpful due to
+          the limited time that could be spent on this project and it also
+          kickstarted the development phase easier.
+        </Col>
         <Row className="page-header2">Graphics</Row>
         <Col className="page-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          The graphics for this project was made through <b>Blender</b>, to
+          build and enhance the 3D environment and the game elements, as well as
+          doing texture mapping.
         </Col>
         <Row className="page-header2">Interactions</Row>
         <Col className="page-text">
