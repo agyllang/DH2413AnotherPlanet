@@ -2,6 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Demo1 from "../../images/Demo1.png";
+import Demo2 from "../../images/Demo2.png";
 
 const Home = ({ ...props }) => {
   return (
@@ -14,6 +16,11 @@ const Home = ({ ...props }) => {
           height="480"
           allow="autoplay"
         ></iframe>
+        <Row className="page-header">Demo Photo</Row>
+        <Col className="page-text">
+          <img src={Demo1} width="50%"/>
+          <img src={Demo2} width="50%"/>
+        </Col>
         <Row className="page-header">Description</Row>
         <Col className="page-text">
           Another Planet is a VR project built in the course DH2413 Advanced
